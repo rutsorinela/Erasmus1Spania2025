@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: black;
+    color: palevioletred;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    margin: 10px 0px;
+}
+section{
+    width: 100%;
+    max-width: 800%;
+    min-width: 480%;
+    margin: 0 auto;
+}
+
+section h3{
+    padding: 5px;
+    text-align: center;
+}
+
+section p{
+    padding: 5px;
+}

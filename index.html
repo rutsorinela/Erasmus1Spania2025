@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adivina el numero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="adivinaNumero.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Adivina el numero</h1>
+    </header>
+    <section>
+        <h3>Ayuda al jugador</h3>
+        <p>Hermos seleccionado un numero enter el 1 y el 100</p>
+        <p>Intenta adivinarlo en 10 intros</p>
+        <p>Se ayudara indicados si el numero es mayor o menor al escrito</p>
+
+        <div class="form">
+            <label for="guessField">Ingresa un numeros</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </section>
+</body>
+</html>
